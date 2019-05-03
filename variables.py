@@ -9,3 +9,5 @@ f = 0
 def someFunction():
     f = 'def'
     print(f)
+
+someFunction()
