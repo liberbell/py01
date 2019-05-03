@@ -7,9 +7,9 @@ def func2(arg1, arg2):
 def cube(x):
     return x*x*x
 
-func1()
-print(func1())
-print(func1)
+# func1()
+# print(func1())
+# print(func1)
 
 func2(10, 20)
 print(func2(10, 20))
