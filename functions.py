@@ -10,3 +10,7 @@ def cube(x):
 func1()
 print(func1())
 print(func1)
+
+func2(10, 20)
+
+cube(10)
