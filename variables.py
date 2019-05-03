@@ -7,6 +7,7 @@ f = 0
 # print('This is a string' + str(123))
 
 def someFunction():
+    global f
     f = 'def'
     print(f)
 
