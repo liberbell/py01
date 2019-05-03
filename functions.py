@@ -12,5 +12,5 @@ print(func1())
 print(func1)
 
 func2(10, 20)
-
-cube(10)
+print(func2(10, 20))
+print(cube(10))
