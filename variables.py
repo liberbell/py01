@@ -4,4 +4,4 @@ print(f)
 f = 'abc'
 print(f)
 
-print('This is a string' + 123)
+print('This is a string' + str(123))
