@@ -1,5 +1,6 @@
 def main():
-    x, y = 1000, 100
+    x, y = 10, 100
+    print(x, y)
 
     if (x < y):
         st = "X is less than Y"
