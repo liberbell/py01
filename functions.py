@@ -21,3 +21,5 @@ def power(num, x=1):
 func2(10, 20)
 print(func2(10, 20))
 print(cube(10))
+print(power(2))
+print(power(2,3))
