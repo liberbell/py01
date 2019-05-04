@@ -3,6 +3,8 @@ def main():
 
     if (x < y):
         st = "X is less than Y"
+    elif (x > y):
+        st = "X is more than Y"
     else:
         st = "X equal Y"
 
