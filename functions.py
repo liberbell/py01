@@ -19,7 +19,7 @@ def multi_add(*args):
     for x in args:
         result = result + x
     return result
-    
+
 # func1()
 # print(func1())
 # print(func1)
@@ -27,6 +27,7 @@ def multi_add(*args):
 # func2(10, 20)
 # print(func2(10, 20))
 # print(cube(10))
-print(power(2))
-print(power(2,3))
-print(power(x=3, num=2))
+# print(power(2))
+# print(power(2,3))
+# print(power(x=3, num=2))
+print(multi_add(2, 3, 4, 5, 6, 7))
