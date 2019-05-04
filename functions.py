@@ -18,8 +18,9 @@ def power(num, x=1):
 # print(func1())
 # print(func1)
 
-func2(10, 20)
-print(func2(10, 20))
-print(cube(10))
+# func2(10, 20)
+# print(func2(10, 20))
+# print(cube(10))
 print(power(2))
 print(power(2,3))
+print(power(x=3, num=2))
