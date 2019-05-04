@@ -14,6 +14,12 @@ def power(num, x=1):
         result = result * num
     return result
 
+def multi_add(*args):
+    result = 0
+    for x in args:
+        result = result + x
+    return result
+    
 # func1()
 # print(func1())
 # print(func1)
