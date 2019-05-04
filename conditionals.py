@@ -10,5 +10,8 @@ def main():
 
     print(st)
 
+    st = 'X is less than Y' if (x < y) else 'X is greater than or same as Y'
+    print(st)
+
 if __name__ == '__main__':
     main()
