@@ -8,8 +8,11 @@ def main():
     #     print(x)
 
     days = ["Mon", "Thu", "Wed", "Thu", "Fri", "Sat", "Sun"]
-    for d in days:
-        print(d)
+    # for d in days:
+    #     print(d)
+    for x in range(5, 10):
+        if (x == 7): break
+        print(x)
 
 
 if __name__ == '__main__':
