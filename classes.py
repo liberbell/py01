@@ -7,7 +7,7 @@ class myClass():
 
 class anotherClass(myClass):
     def method1(self):
-        myClass.method1
+        myClass.method1(self)
         print('anotherClass method1')
 
     def method2(self, someString):
@@ -20,6 +20,7 @@ def main():
 
     c2 = anotherClass()
     c2.method1()
+    c2.method2('This is a string')
 
 if __name__ == '__main__':
     main()
