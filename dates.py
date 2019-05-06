@@ -11,6 +11,7 @@ def main():
     print('Today`s weekday # is:', today.weekday())
 
     days = ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat', 'Sun']
+    print('Which is a: ', days[today.weekday()])
 
 
 if __name__ == '__main__':
