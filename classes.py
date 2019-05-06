@@ -7,6 +7,7 @@ class myClass():
 
 class anotherClass(myClass):
     def method1(self):
+        myClass.method1
         print('anotherClass method1')
 
     def method2(self, someString):
