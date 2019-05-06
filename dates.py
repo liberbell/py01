@@ -8,7 +8,7 @@ def main():
 
     print('Date components:', today.day, today.month, today.year)
 
-    print('Today`s weekday # is:', today.weekday)
+    print('Today`s weekday # is:', today.weekday())
 
 
 if __name__ == '__main__':
