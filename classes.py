@@ -10,7 +10,7 @@ lass anotherClass(myClass):
         print('anotherClass method1')
 
     def method2(self, someString):
-        print('anotherClass method2 ' + someString)
+        print('anotherClass method2 ')
 
 def main():
     c = myClass()
