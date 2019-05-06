@@ -17,7 +17,7 @@ def main():
 
     days = ["Mon", "Thu", "Wed", "Thu", "Fri", "Sat", "Sun"]
     for i,d in enumerate(days):
-        print(d)
+        print(i, d)
 
 
 
