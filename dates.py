@@ -14,7 +14,7 @@ def main():
     # print('Which is a: ', days[today.weekday()])
 
     today = datetime.now()
-    print(today)
+    print('The current date and time is: ', today)
 
 
 if __name__ == '__main__':
