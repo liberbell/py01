@@ -5,7 +5,7 @@ class myClass():
     def method2(self, someString):
         print('myClass method2 ' + someString)
 
-lass anotherClass(myClass):
+class anotherClass(myClass):
     def method1(self):
         print('anotherClass method1')
 
