@@ -17,5 +17,8 @@ def main():
     c.method1()
     c.method2('This is a string')
 
+    c2 = anotherClass()
+    c2.method1()
+
 if __name__ == '__main__':
     main()
