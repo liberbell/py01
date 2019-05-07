@@ -6,9 +6,11 @@ def main():
     # print(now.strftime('The current month is %b'))
     # print(now.strftime('%a, %d %b, %y'))
 
-    print(now.strftime('Local date and time: %c'))
-    print(now.strftime('Local date: %x'))
-    print(now.strftime('Local time: %X'))
+    # print(now.strftime('Local date and time: %c'))
+    # print(now.strftime('Local date: %x'))
+    # print(now.strftime('Local time: %X'))
+
+    print(now.strftime('Current Time: %I:%M:%S'))
 
 if __name__ == '__main__':
     main()
