@@ -7,8 +7,8 @@ def main():
     print(now.strftime('%a, %d %b, %y'))
 
     print(now.strftime('Local date and time: %c'))
-    print(now.strftime('Local date and time: %c'))
-    print(now.strftime('Local date and time: %c'))
+    print(now.strftime('Local date: %x'))
+    print(now.strftime('Local time: %X'))
 
 if __name__ == '__main__':
     main()
