@@ -11,6 +11,7 @@ def main():
     # print(now.strftime('Local time: %X'))
 
     print(now.strftime('Current Time: %I:%M:%S %p'))
+    print(now.strftime('24-hour Time: %H:%M %p'))
 
 if __name__ == '__main__':
     main()
