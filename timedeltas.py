@@ -9,3 +9,6 @@ print('Today is: ' + str(now))
 print('One year from now it will be: ' + str(now + timedelta(days=365)))
 
 print('In 2 days and 3 weeks, It will be: ' + str(now + timedelta(days=2, weeks=3)))
+t = datetime.now() - timedelta(weeks=1)
+s = t.strftime('%A %B %d, %Y')
+print(s)
