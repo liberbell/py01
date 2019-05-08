@@ -12,3 +12,7 @@ print('In 2 days and 3 weeks, It will be: ' + str(now + timedelta(days=2, weeks=
 t = datetime.now() - timedelta(weeks=1)
 s = t.strftime('%A %B %d, %Y')
 print('One week ago it was: ' + s)
+
+today = date.today()
+afd = date(today.year, 4, 1)
+print('This year april date: ' + afd)
