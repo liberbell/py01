@@ -15,4 +15,7 @@ print('One week ago it was: ' + s)
 
 today = date.today()
 afd = date(today.year, 4, 1)
-print('This year april date: ' + str(afd))
+print('This year april fool`s date: ' + str(afd))
+
+if afd < today:
+    print('April Fool`s day already went by %d days ago' % (today - afd).days)
