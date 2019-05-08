@@ -8,5 +8,11 @@ c = calendar.TextCalendar(calendar.MONDAY)
 # st = hc.formatmonth(2019, 5)
 # print(st)
 
-for i in c.itermonthdays(2019, 5):
-    print(i)
+# for i in c.itermonthdays(2019, 5):
+#     print(i)
+
+for name in calendar.month_name:
+    print(name)
+
+for day in calendar.day_name:
+    print(day)
