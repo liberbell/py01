@@ -5,5 +5,5 @@ import calendar
 # print(st)
 
 hc = calendar.HTMLCalendar(calendar.SUNDAY)
-st = hc.formatmonth(2019, 5, 0, 0)
+st = hc.formatmonth(2019, 5)
 print(st)
