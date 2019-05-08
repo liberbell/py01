@@ -19,3 +19,7 @@ print('This year april fool`s date: ' + str(afd))
 
 if afd < today:
     print('April Fool`s day already went by %d days ago' % (today - afd).days)
+    afd = afd.replace(year = today.year+1)
+
+time_to_afd = afd - today
+print('It`s just ', time_to_afd.days, 'days until April Fool`s day')
