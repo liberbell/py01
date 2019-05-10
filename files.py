@@ -11,6 +11,7 @@ def main():
         fl = f.readlines()
         for x in fl:
             print(x)
+        # test
         # print(contents)
 
 
