@@ -26,3 +26,4 @@ for m in ragen(1, 13):
         meetday = weekone[calendar.FRIDAY]
     else:
         meetday = weektwo[calendar.FRIDAY]
+    print('%10s %2d' % (calendar.month_name[m], meetday))
