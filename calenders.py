@@ -17,7 +17,7 @@ c = calendar.TextCalendar(calendar.MONDAY)
 # for day in calendar.day_name:
 
 print('Team meeting will be on: ')
-for m in ragen(1, 13):
+for m in range(1, 13):
     cal = calendar.monthcalendar(2019, m)
     weekone = cal[0]
     weektwo = cal[1]
