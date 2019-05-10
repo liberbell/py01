@@ -7,7 +7,7 @@ def main():
     #
     # f.close()
     if f.mode == 'r':
-        contents = f.read()
+        # contents = f.read()
         print(contents)
 
 
