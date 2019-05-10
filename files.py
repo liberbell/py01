@@ -6,7 +6,9 @@ def main():
     #     f.write('This is line ' + str(i) + '\r\n')
     #
     # f.close()
-    
+    if f.mode == 'r':
+        contents = f.read()
+        print(contents)
 
 
 if __name__ == '__main__':
