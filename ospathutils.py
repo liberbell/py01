@@ -16,7 +16,7 @@ def main():
 
     t = time.ctime(path.getmtime('textfile.txt'))
     print(t)
-    print(dateti.datetime.fromtimestamp(path.getmtime('textfile.txt')))
+    print(datetime.datetime.fromtimestamp(path.getmtime('textfile.txt')))
 
 if __name__ == '__main__':
     main()
