@@ -14,5 +14,8 @@ def main():
     print('Item path: ' + str(path.realpath('textfile.txt')))
     print('Item path and name ' + str(path.split(path.realpath('textfile.txt'))))
 
+    t = time.ctime(path.getmtime('textfile.txt'))
+    print(t)
+
 if __name__ == '__main__':
     main()
