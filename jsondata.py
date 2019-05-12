@@ -10,6 +10,8 @@ def main():
 
     weburl = urllib.request.urlopen(urlData)
     print('Result code: ' + str(weburl.getcode()))
+    if (weburl.getcode() == 200):
+        data = weburl.read()
 
 if __name__ == '__main__':
     main()
