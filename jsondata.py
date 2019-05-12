@@ -5,7 +5,7 @@ import json
 def printResults(data):
     theJSON = json.loads(data)
 
-    if 'title' in thJSON['metadata']:
+    if 'title' in theJSON['metadata']:
         print(theJSON['metadata']['title'])
 
     count = theJSON['metadata']['count']
