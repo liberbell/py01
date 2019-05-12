@@ -12,7 +12,7 @@ def printResults(data):
     print(str(count) + ' events recorded.')
 
     for i in theJSON['features']:
-        print(i['properties'])
+        print(i['properties']['place'])
 
 def main():
     urlData = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson'
