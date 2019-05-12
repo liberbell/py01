@@ -1,5 +1,5 @@
-from urllib import request
-import urllib
+# from urllib import request
+import urllib.request
 
 def printResults(data):
     theJson = json.loads(all)
