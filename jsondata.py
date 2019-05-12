@@ -12,7 +12,7 @@ def printResults(data):
     print(str(count) + ' events recorded.')
 
 def main():
-    urlData = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_hour.geojson'
+    urlData = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson'
 
     weburl = urllib.request.urlopen(urlData)
     print('Result code: ' + str(weburl.getcode()))
