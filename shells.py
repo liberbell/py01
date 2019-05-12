@@ -9,6 +9,7 @@ def main():
         dst = src + '.bak'
 
         shutil.copy(src, dst)
+        shutil.copystat(src, dst)
 
 if __name__ == '__main__':
     main()
