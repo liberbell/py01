@@ -3,7 +3,7 @@ import urllib.request
 import json
 
 def printResults(data):
-    theJON = json.loads()
+    theJON = json.loads(data)
 
 def main():
     urlData = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_hour.geojson'
