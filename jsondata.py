@@ -3,7 +3,13 @@ import urllib.request
 import json
 
 def printResults(data):
-    theJON = json.loads(data)
+    theJSON = json.loads(data)
+
+    if 'title' in thJSON['metadata']:
+        print(theJSON['metadata']['title'])
+
+    count = theJSON['metadata']['count']
+    print(str(count) + ' events recorded.')
 
 def main():
     urlData = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_hour.geojson'
