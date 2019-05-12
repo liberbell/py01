@@ -12,7 +12,7 @@ def printResults(data):
     print(str(count) + ' events recorded.')
 
     for i in theJSON['features']:
-        print(i['properties']['place']['mag'])
+        print(i['properties']['place'], i['properties']['mag'])
     print('---------\n')
 
 def main():
