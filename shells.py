@@ -16,6 +16,8 @@ def main():
         root_dir, tail = path.split(src)
         print(root_dir, tail)
 
+        shutil.make_archive('archive', 'zip', root_dir)
+
 
 if __name__ == '__main__':
     main()
