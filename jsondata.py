@@ -15,6 +15,11 @@ def printResults(data):
         print(i['properties']['place'], i['properties']['mag'])
     print('---------\n')
 
+    for i in theJSON['features']:
+        if i['properties']['mag'] >= 4.0:
+            print('%2.1f % i['properties']['mag'], i['properties'['place']]')
+
+
 def main():
     urlData = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson'
 
