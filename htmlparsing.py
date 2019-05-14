@@ -1,4 +1,6 @@
+from html.parser import HTMLParser
 
+class MyHTMLParser(HTMLParser)
 
 def main():
     parser = MyHTMLParser()
