@@ -7,5 +7,8 @@ def main():
     print(doc.nodeName)
     print(doc.firstChild.tagName)
 
+    skills = doc.getElementsByTagName('skill')
+    print('%d skills: ' % skills.length)
+
 if __name__ == '__main__':
     main()
