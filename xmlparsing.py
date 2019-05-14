@@ -16,11 +16,13 @@ def main():
 
     newSkill = doc.createElement('skill')
     newSkill.setAttribute('name', 'jquery')
+    doc.firstChild.appendChild(newSkill)
 
+    skills = doc.getElementsByTagName('skill')
     print('%d skills: ' % skills.length)
     for skill in skills:
         print(skill.getAttribute('name'))
-    
+
 
 if __name__ == '__main__':
     main()
