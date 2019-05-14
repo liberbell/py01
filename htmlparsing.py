@@ -10,7 +10,11 @@ class MyHTMLParser(HTMLParser):
 
     def handle_endtag(self, tag):
 
-    def handle_data(self, data)
+    def handle_data(self, data):
+        print('Encountered comment: ', data)
+        pos = self.getpos()
+        print('\tAt line: ', pos[0], ' positon ', pos[1])
+
 
 def main():
     parser = MyHTMLParser()
