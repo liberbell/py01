@@ -6,6 +6,12 @@ class MyHTMLParser(HTMLParser):
         pos = self.getpos()
         print('\tAt line: ', pos[0], ' positon ', pos[1])
 
+    def handle_starttag(self, tag, attrs):
+
+    def handle_endtag(self, tag):
+
+    def handle_data(self, data)
+
 def main():
     parser = MyHTMLParser()
     f = open('samplehtml.html')
