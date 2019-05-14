@@ -27,6 +27,8 @@ class MyHTMLParser(HTMLParser):
         print('\tAt line: ', pos[0], ' positon ', pos[1])
 
     def handle_data(self, data):
+        if data.isspace():
+            return
         print('Encountered data: ', data)
         pos = self.getpos()
         print('\tAt line: ', pos[0], ' positon ', pos[1])
